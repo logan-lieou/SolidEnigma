@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[mlscala-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[mlscala-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'mlscala-build' to '/home/loganj/Projects/JVM_Projects/MLScala/project/.bloop/mlscala-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/mlscala-build.json[0m
