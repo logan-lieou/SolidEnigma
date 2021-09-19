@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/loganj/Projects/Scala_Projects/SolidEnigma/src/main/scala/enigma/Solid.scala:4:25: object linalg is not a member of package org.apache.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.linalg.{Matrix, Vectors}[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/loganj/Projects/Scala_Projects/SolidEnigma/src/main/scala/enigma/Solid.scala:9:15: not found: value Vectors[0m
+[0m[[0m[31merror[0m] [0m[0m   val data = Vectors.dense(6.0, 7.0, 0.0, 8.0)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/loganj/Projects/Scala_Projects/SolidEnigma/src/main/scala/enigma/Solid.scala:11:31: overloaded method value corr with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (dataset: org.apache.spark.sql.Dataset[_],column: String)org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (dataset: org.apache.spark.sql.Dataset[_],column: String,method: String)org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (<error>)[0m
+[0m[[0m[31merror[0m] [0m[0m   val someCorr = Correlation.corr(data)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
